@@ -24,7 +24,7 @@ app.use(
 );
 
 mongoose.connect(MONGOURL, {
-  useNewUrlParser: true,
+  useNewUrlParser: true,#abc
   useUnifiedTopology: true,
 });
 
