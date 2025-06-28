@@ -13,6 +13,7 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
 const PORT = process.env.PORT || 8080;
 const MONGOURL = process.env.MONGOURL;
+const cors = require("cors");
 const app = express();
 app.use(express.json());
 
